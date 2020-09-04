@@ -17,10 +17,10 @@
  
  ### Add some changes to package.json:
 
- "scripts": {
+ *"scripts": {
     "publish": "node publisher.js",
     "consume": "node consumer.js"
-  }
+  }*
  
  - With this two lines you can execute consumer.js and publisher.js through terminal in next way:
  
