@@ -5,16 +5,17 @@
 
 ### To work with RabbitMQ you need to do:
 
- - *Download Docker *
+ - Download Docker 
    
    - run *docker run --name rabbitmq -p 5672:5672 rabbitmq*
+   
    
  ### NOTE: If you create project step by step:    
  
  - In Visual Studio Code open terminal and write *npm init -y* that initializing package.json
  - In Visual Studio Code open terminal and write *npm install amqplib*, installing the module that is used in the project
  
-### Add some changes to package.json:
+ ### Add some changes to package.json:
 
  "scripts": {
     "publish": "node publisher.js",
